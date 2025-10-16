@@ -7,3 +7,106 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared styles */
+.display-flex{
+     display:flex;
+}
+
+.bg-light{
+    background-color:#FFFFFF ;
+}
+/* header styles */
+
+/* navbar related styles */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+/* logo section */
+.logo {
+  align-items: center;
+  gap: 11px;
+}
+
+.logo img {
+  width: 62px;
+  height: 62px;
+}
+.brandname{
+    font-weight: 600;
+    font-size:2rem ;
+    color: #111111;
+}
+/* nav item styles */
+.nav-item{
+    list-style: none;
+    margin-right: 32px;
+}
+.home a{
+    color: #FEA301;
+    font-weight: 700;
+}
+.about a{
+    color: #01ACFD;
+}
+.facilities a{
+    color:#01ACFD;
+}
+.admission a{
+    color: #5D58EF;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/*  contract btn */
+.contact-btn{
+    background-color: #FEA301;
+    color: #FFFFFF ;
+    border: none;
+    padding: 10px 60px;
+    border-radius:12px ;
+    font-size: 20px;
+}
+
+/* banner section */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+  max-width: 1150px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.banner-title{
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.empower{
+    color:#FEA301 ;
+}
+.highlight{
+    color:#01ACFD
+}
+.banner-text {
+    flex: 1 1 45%;
+    max-width: 640px;
+}
+.banner-img {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: flex-end; 
+}
+.banner-img img {
+  width: 100%;
+  max-width: 460px;
+  height: 570px;
+}
