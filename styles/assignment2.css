@@ -239,3 +239,124 @@
   width: 80px;
   margin-bottom: 30px;
 }
+.scroll-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* দুইটা icon এর মধ্যে দূরত্ব */
+  margin-top: 80px;
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  background-color: #FEA301; /* হলুদ ব্যাকগ্রাউন্ড */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.arrow-icon {
+  color: #FFFFFF;
+  width: 25px;
+  height: 25px;
+    filter: brightness(0) invert(1);
+}
+
+/* story section */
+.stories{
+   background: linear-gradient(#fff, #FFF4DC);
+  text-align: center;
+  padding: 80px 40px;
+  
+}
+.stories-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 19px;
+  margin-top: 80px;
+}
+.story img {
+  width: 100%;
+  height: auto;
+}
+.story-text {
+  text-align: left;
+  padding: 20px;
+}
+.story-btn {
+  background-color: #3CD8E8;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.view-btn {
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-top: 80px;
+  background-color: #111111;
+  color: #FFFFFF;
+  border: none;
+  padding: 12px 60px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* footer section */
+.footer {
+  background-color: #01ACFD;
+  color: #FFFFFF;
+  padding: 60px 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-brand {
+  flex: 1 1 300px;
+}
+
+.footer-brand img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.footer-brand h3 {
+  font-size: 2.6rem;
+  margin-bottom: 30px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links a {
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.footer-social h4 ,.footer-links h4{
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-social img {
+  width: 25px;
+}
